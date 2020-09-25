@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background: rgb(136, 217, 255);
+    box-sizing: border-box;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+h1{
+    margin: 15px auto;
+    color:white;
+}
+.gallery{
+    border: 30px solid rgb(255, 255, 255);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   object-fit: cover;
+   padding:30px 30px;
+}
+img{
+    border: 7px solid rgb(255, 255, 255);
+    width:300px;
+    height:450px;
+    margin:10px;
+    transition:  width 0.75s, height 0.75s ;
+    box-shadow: grey ;
+    cursor: pointer;
+
+}
+img:hover{
+    width:320px;
+    height: 470px;
+    
+}
